@@ -12,5 +12,6 @@ function onFormElementSubmit(event) {
   } else {
     const saveUserInfo = { email, password };
     formElement.reset();
+    console.log(saveUserInfo);
   }
 }
